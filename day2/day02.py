@@ -6,7 +6,7 @@ def read_csv(filepath):
         return list(reader)
 
 def main():
-    rows = read_csv("sample.csv")
+    rows = read_csv("./../sample.csv")
     for row in rows[:3]:
         print(row)
 

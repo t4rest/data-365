@@ -11,7 +11,7 @@ def sort_by_name(rows):
     return sorted(rows, key=lambda r: r['name'])
 
 def main():
-    rows = read_csv("sample.csv")
+    rows = read_csv("./../sample.csv")
     filtered = filter_by_age(rows, 30)
     sorted_rows = sort_by_name(filtered)
 
